@@ -1,0 +1,57 @@
+.card{
+    background-color:lightskyblue;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+    transition: 300ms;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card:hover{
+    transform: rotate(4deg);
+    width: 360px;
+    border-radius: 22px;
+    background-color:violet;
+}
+.img{
+    width: 100%;
+    border-radius: 16px;
+}
+.flex{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body{
+    background-color: rgb(245, 180, 158);
+}
+h3:hover{
+    color: red;
+
+}
+ h1{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(153, 89, 212);
+    width: 1565px;
+    height: 50px;
+    background-color: aquamarine;
+    color: rgb(255, 38, 0);
+   
+ }
+ h3{
+    text-align: center;
+ }
+ h1:hover{
+    background-color: darkmagenta;
+ }
+ p:hover{
+    color:blue;
+ }
+ 
